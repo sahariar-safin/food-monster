@@ -42,7 +42,7 @@ let handlefoodClick = foodId => {
             <br>
             <h1>Category: ${ data.meals[0].strCategory }</h1>
             <br>
-            <h3>✅ ${ data.meals[0].strMeasure1 }</h3>
+            <h3>📌 ${ data.meals[0].strMeasure1 }</h3>
             <h3>📌 ${ data.meals[0].strMeasure2 }</h3>
             <h3>📌 ${ data.meals[0].strMeasure3 }</h3>
             <h3>📌 ${ data.meals[0].strMeasure4 }</h3>
