@@ -1,5 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
 body {
     background-color: bisque;
+    font-family: 'Oswald', sans-serif;
+}
+.main-manu li a {
+    font-size: 22px;
+    color: black;
+}
+
+.main-manu li {
+    padding: 5px;
+}
+
+.logo {
+    font-size: 30px;
+    color: black;
+}
+input#foodInput {
+    font-size: 25px;
+}
+
+button#search {
+    font-size: 25px;
 }
 .card{
     width: 300px;
