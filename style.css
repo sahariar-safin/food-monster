@@ -22,20 +22,20 @@ body {
     padding: 20px;
     display: none;
 }
-.catagory-details img {
+.food-details img {
     height: 300px;
     border-radius: 30px;
 }
-.catagory-details h1{
+.food-details h1{
     padding: 5px;
     font-size: 30px;
 }
-.catagory-details h3{
+.food-details h3{
     padding: 3px;
     font-size: 25px;
     text-align: left;
 }
-.catagory-details{
+.food-details{
     width: 70%;
     margin: 0 auto;
 }
