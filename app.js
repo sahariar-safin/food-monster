@@ -42,12 +42,12 @@ let handlefoodClick = foodId => {
             <br>
             <h1>Category: ${ data.meals[0].strCategory }</h1>
             <br>
-            <h3>📌 ${ data.meals[0].strMeasure1 }</h3>
-            <h3>📌 ${ data.meals[0].strMeasure2 }</h3>
-            <h3>📌 ${ data.meals[0].strMeasure3 }</h3>
-            <h3>📌 ${ data.meals[0].strMeasure4 }</h3>
-            <h3>📌 ${ data.meals[0].strMeasure5 }</h3>
-            <h3>📌 ${ data.meals[0].strMeasure6 }</h3>
+            <h3>📌 ${ data.meals[0].strIngredient1 }</h3>
+            <h3>📌 ${ data.meals[0].strIngredient2 }</h3>
+            <h3>📌 ${ data.meals[0].strIngredient3 }</h3>
+            <h3>📌 ${ data.meals[0].strIngredient4 }</h3>
+            <h3>📌 ${ data.meals[0].strIngredient5 }</h3>
+            <h3>📌 ${ data.meals[0].strIngredient6 }</h3>
             `;
             foodDetails.className = "food-details";
             foodData.appendChild(foodDetails);
